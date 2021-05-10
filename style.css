@@ -1,25 +1,72 @@
-h1 {
-  color: #000000;
+* {
+margin : 0;
+padding : 0;
+box-sizing : 0;
+}
 
-  font-size: 100px;
+.clearfix: after{
+content:"";
+display: table;
+clear: both;
+}
+
+
+
+
+
+h1 {
+  color: #00ff;
+  font-size: 45px;
   font-family: Arial, Helvetica, sans-serif;
+margin-bottom : 20px;
+
 }
 h2 {
   color: rgb(255, 0, 0);
   font-size: 30px;
   font-family: helvetica new, arial;
+  margin-bottom : 10px;
+  margin-top: 20px;
+
 }
 body {
-  color: rgba(15, 25, 30, 0.1);
+  color: rgba(200, 25, 100, 0.9);
   font: 25px;
   font-family: arial;
 }
 p {
   text-align: justify;
+  margin-bottom : 10px;
+
 }
 .main-text {
   text-align: justify;
+  color: rgba(14, 14, 15, 0.4);
+
 }
 .author-text {
-  font-size: 40px;
+  font-size: 25px;
+  margin-bottom : 20px;
 }
+
+.container {
+width : 1140 px;
+margin : 20px; auto; 0; auto;
+}
+
+.blog-post {
+width: 75%;
+float: left;
+padding-right: 30px;
+}
+
+.author-box {
+width: 75%; 
+float: left;
+padding-top: 10px;
+border-top: 10px solid #808080;
+
+}
+
+
+
